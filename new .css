@@ -1,0 +1,10 @@
+.messenger_load {text-align: center;font-size: 14px; color: green;}
+.messenger_send {margin-top: 20px;  text-align: center;}
+.messenger_send > span {display: block; font-weight: bold; font-size: 24px; color: green;}
+.messenger_send span span {font-size: 14px; display: block;}
+.messenger_error {margin-top: 20px;  text-align: center;}
+.messenger_error > span {display: block; font-weight: bold; font-size: 24px; color: #a81d9e;}
+.messenger_error span span {font-size: 14px;}
+.messenger_error ol{text-align: left;counter-reset: myCounter;}
+.messenger_error li{margin-bottom: 10px;  font-size: 16px;color: #4b4b4b;list-style: none;}
+.messenger_error li:before {counter-increment: myCounter;content:counter(myCounter);color: white;background: #a81d9e;display
